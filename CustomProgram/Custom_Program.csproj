@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Resources\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp5.0\Bangers.ttf" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\Bangladesh.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\Korea.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\Vietnam.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\AUS.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\UK.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\France.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\USA.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\CAN.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\airport.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\cell.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\mystery.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\corner.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\worldcup.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\worldcup_symbol.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\jail.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\trainstation.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\start.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\images\tax.png" />
+    <Content Include="bin\Debug\netcoreapp5.0\OpenSans.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp5.0\animations\dice.txt" />
+    <None Include="bin\Debug\netcoreapp5.0\BoardSetup.txt" />
+    <None Include="bin\Debug\netcoreapp5.0\DbInitializeSql.txt" />
+    <None Include="bin\Debug\netcoreapp5.0\images\dice.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp5.0\databases\" />
+  </ItemGroup>
+
+</Project>
